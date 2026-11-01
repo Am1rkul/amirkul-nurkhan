@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amirkul Nurkhan — Cybersecurity Student Portfolio">
+  <title>Amirkul_Nurkhan | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="progress-bar" id="progress"></div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-icon">A</span>
+        <span>AMIRKUL<span class="blue">_</span>NURKHAN</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="navAbout">Обо мне</a>
+        <a href="#skills" data-i18n="navSkills">Навыки</a>
+        <a href="#projects" data-i18n="navProjects">Проекты</a>
+        <a href="#education" data-i18n="navEducation">Университет</a>
+        <a href="#certificates" data-i18n="navCertificates">Сертификаты</a>
+        <a href="#contact" data-i18n="navContact">Контакты</a>
+      </div>
+
+      <button class="language-btn" id="languageBtn">RU</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          <span data-i18n="status">Открыт к обучению и новым возможностям</span>
+        </div>
+
+        <p class="eyebrow" data-i18n="hello">ПРИВЕТ, Я</p>
+        <h1>AMIRKUL<br><span class="gradient-text">NURKHAN</span></h1>
+
+        <h2 class="hero-subtitle">
+          <span data-i18n="heroRole">Начинающий специалист по</span>
+          <span class="blue"> Cybersecurity</span>
+        </h2>
+
+        <p class="hero-description" data-i18n="heroDescription">
+          Изучаю информационную безопасность, сети и программирование.
+          Создаю проекты, развиваю навыки и стремлюсь стать профессионалом
+          в области кибербезопасности.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary" data-i18n="viewProjects">Мои проекты ↗</a>
+          <a href="#contact" class="btn btn-outline" data-i18n="contactMe">Связаться со мной</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+          <a href="mailto:your@email.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="terminal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span>security_terminal.exe</span>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-muted"># Welcome to my portfolio</p>
+            <p><span class="terminal-green">root@amirkul</span>:~$ whoami</p>
+            <p class="terminal-output">Amirkul Nurkhan</p>
+            <p><span class="terminal-green">root@amirkul</span>:~$ role</p>
+            <p class="terminal-output">Cybersecurity Student</p>
+            <p><span class="terminal-green">root@amirkul</span>:~$ skills</p>
+            <p class="terminal-output">Networking, Linux, Python</p>
+            <p><span class="terminal-green">root@amirkul</span>:~$ mission</p>
+            <p class="terminal-output">Learn. Secure. Build.</p>
+            <p><span class="terminal-green">root@amirkul</span>:~$ <span class="cursor">_</span></p>
+          </div>
+        </div>
+        <div class="floating-card">
+          <span>🛡️</span>
+          <div>
+            <strong>CYBERSECURITY</strong>
+            <small>Future Security Engineer</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <span class="section-number">01 / ABOUT</span>
+        <h2 data-i18n="aboutTitle">Обо мне</h2>
+        <p data-i18n="aboutSubtitle">Немного информации обо мне и моих целях.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">👨‍💻</div>
+          <h3 data-i18n="aboutWho">Кто я?</h3>
+          <p data-i18n="aboutText">
+            Меня зовут Amirkul Nurkhan. Я начинающий студент в области
+            Cybersecurity. Интересуюсь защитой информации, компьютерными
+            сетями, Linux и разработкой программного обеспечения.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">🎯</div>
+          <h3 data-i18n="aboutGoal">Моя цель</h3>
+          <p data-i18n="goalText">
+            Получить практический опыт, научиться защищать информационные
+            системы и стать квалифицированным специалистом по кибербезопасности.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">🚀</div>
+          <h3 data-i18n="aboutInterests">Мои интересы</h3>
+          <p data-i18n="interestsText">
+            Cybersecurity, Ethical Hacking, Networking, Python,
+            Linux, Web Security и информационные технологии.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-dark" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">02 / TECHNOLOGIES</span>
+          <h2 data-i18n="skillsTitle">Мои навыки</h2>
+          <p data-i18n="skillsSubtitle">Технологии, которые изучаю и развиваю.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icon">🐧</span>
+            <h3>Linux</h3>
+            <p data-i18n="linuxDesc">Основы операционной системы Linux</p>
+            <span class="skill-level">BEGINNER</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🐍</span>
+            <h3>Python</h3>
+            <p data-i18n="pythonDesc">Основы программирования</p>
+            <span class="skill-level">BEGINNER</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🌐</span>
+            <h3>Networking</h3>
+            <p data-i18n="networkDesc">Сети, IP, DNS, TCP/IP</p>
+            <span class="skill-level">LEARNING</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🔐</span>
+            <h3>Cybersecurity</h3>
+            <p data-i18n="cyberDesc">Основы информационной безопасности</p>
+            <span class="skill-level">LEARNING</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">💻</span>
+            <h3>HTML & CSS</h3>
+            <p data-i18n="webDesc">Создание веб-сайтов</p>
+            <span class="skill-level">BEGINNER</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🗄️</span>
+            <h3>SQL</h3>
+            <p data-i18n="sqlDesc">Основы работы с базами данных</p>
+            <span class="skill-level">LEARNING</span>
+          </div>
+        </div>
+
+        <p class="skills-note" data-i18n="skillsNote">
+          * Уровни указаны как текущий учебный статус, а не профессиональная оценка.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <span class="section-number">03 / PORTFOLIO</span>
+        <h2 data-i18n="projectsTitle">Мои проекты</h2>
+        <p data-i18n="projectsSubtitle">Практика — важная часть моего обучения.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-blue">🛡️</div>
+          <div class="project-info">
+            <span class="project-tag">WEB DEVELOPMENT</span>
+            <h3>Personal Portfolio</h3>
+            <p data-i18n="project1Desc">Мой личный сайт-портфолио с адаптивным дизайном и двумя языками.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="viewCode">Посмотреть код ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-purple">🔍</div>
+          <div class="project-info">
+            <span class="project-tag">PYTHON</span>
+            <h3>Security Learning Lab</h3>
+            <p data-i18n="project2Desc">Учебная лаборатория для изучения основ кибербезопасности и Python.</p>
+            <div class="tags"><span>Python</span><span>Linux</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="viewCode">Посмотреть код ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-cyan">🌐</div>
+          <div class="project-info">
+            <span class="project-tag">NETWORKING</span>
+            <h3>Network Fundamentals</h3>
+            <p data-i18n="project3Desc">Учебные заметки по компьютерным сетям, протоколам и безопасности.</p>
+            <div class="tags"><span>TCP/IP</span><span>Networking</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="viewCode">Посмотреть код ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="skills-note" data-i18n="projectNote">Учебные примеры. Замените их на свои реальные проекты по мере создания.</p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-dark" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">04 / EDUCATION</span>
+          <h2 data-i18n="educationTitle">Университет</h2>
+          <p data-i18n="educationSubtitle">Мой образовательный путь.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="education-icon">🎓</div>
+          <div>
+            <span class="project-tag" data-i18n="studentLabel">STUDENT</span>
+            <h3 data-i18n="universityName">Университет</h3>
+            <p data-i18n="specialtyLabel">Направление: Cybersecurity</p>
+            <p data-i18n="studyStatus">Статус: Начинающий студент</p>
+            <p class="education-description" data-i18n="educationText">
+              Изучаю основы информационной безопасности, программирование,
+              компьютерные сети и информационные технологии.
+            </p>
+          </div>
+        </div>
+
+        <div class="study-topics">
+          <div><span>01</span> Networking</div>
+          <div><span>02</span> Programming</div>
+          <div><span>03</span> Information Security</div>
+          <div><span>04</span> Operating Systems</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section container" id="certificates">
+      <div class="section-heading">
+        <span class="section-number">05 / CERTIFICATES</span>
+        <h2 data-i18n="certTitle">Мои сертификаты</h2>
+        <p data-i18n="certSubtitle">Образование и подтверждение новых знаний.</p>
+      </div>
+
+      <div class="certificate-card">
+        <div class="certificate-icon">🏅</div>
+        <div>
+          <h3 data-i18n="certEmpty">Скоро здесь появятся мои сертификаты</h3>
+          <p data-i18n="certEmptyText">Добавлю сертификаты курсов, университетских программ и IT-обучения.</p>
+        </div>
+        <span class="certificate-status" data-i18n="inProgress">В процессе</span>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section section-dark" id="achievements">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">06 / PROGRESS</span>
+          <h2 data-i18n="achievementsTitle">Мои достижения</h2>
+          <p data-i18n="achievementsSubtitle">Мой путь развития в IT.</p>
+        </div>
+
+        <div class="achievement-grid">
+          <div class="achievement-card">
+            <span>📚</span>
+            <h3 data-i18n="achievement1">Начало обучения</h3>
+            <p data-i18n="achievement1Text">Изучение направления Cybersecurity.</p>
+          </div>
+          <div class="achievement-card">
+            <span>💻</span>
+            <h3 data-i18n="achievement2">Первое портфолио</h3>
+            <p data-i18n="achievement2Text">Создание собственного веб-сайта.</p>
+          </div>
+          <div class="achievement-card">
+            <span>🎯</span>
+            <h3 data-i18n="achievement3">Новые цели</h3>
+            <p data-i18n="achievement3Text">Постоянное изучение новых технологий.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact-box">
+        <span class="section-number">07 / CONTACT</span>
+        <h2 data-i18n="contactTitle">Давайте общаться!</h2>
+        <p data-i18n="contactText">
+          Открыт к общению, обмену знаниями, учебным проектам
+          и новым возможностям в IT.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:your@email.com" class="btn btn-primary">✉ Email</a>
+          <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Telegram ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">AMIRKUL<span class="blue">_</span>NURKHAN</a>
+      <p>© <span id="year"></span> Amirkul Nurkhan. <span data-i18n="footerText">Создано с интересом к Cybersecurity.</span></p>
+      <a href="#home" class="back-top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
